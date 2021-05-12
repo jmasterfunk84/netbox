@@ -134,6 +134,7 @@ class ButtonColorChoices(ChoiceSet):
     """
     DEFAULT = 'default'
     BLUE = 'primary'
+    CYAN = 'info'
     GREY = 'secondary'
     GREEN = 'success'
     RED = 'danger'
@@ -143,6 +144,7 @@ class ButtonColorChoices(ChoiceSet):
     CHOICES = (
         (DEFAULT, 'Default'),
         (BLUE, 'Blue'),
+        (CYAN, 'Cyan'),        
         (GREY, 'Grey'),
         (GREEN, 'Green'),
         (RED, 'Red'),
